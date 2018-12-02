@@ -1,0 +1,20 @@
+{
+  "name": "clap-studio",
+  "version": "1.0.0",
+  "description": "Easily enhance your Tweets with 👏",
+  "main": "index.html",
+  "author": "Yann Pringault <yann.pringault@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kerumen/clap-studio.git"
+  },
+  "homepage": "https://github.com/Kerumen/clap-studio#readme",
+  "license": "MIT",
+  "keywords": [
+    "clap",
+    "tweet"
+  ],
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  }
+}
