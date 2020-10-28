@@ -150,12 +150,12 @@
         return tweet
       }
 
-      const showTweet = tweet => {
+      const showTweet = (tweet) => {
         const result = document.getElementById('result')
         result.classList.add('enter')
 
         result.innerText = tweet
-        result.addEventListener('click', function() {
+        result.addEventListener('click', function () {
           const selection = window.getSelection()
           const range = document.createRange()
           range.selectNodeContents(this)
@@ -164,7 +164,7 @@
         })
       }
 
-      document.addEventListener('keydown', e => {
+      document.addEventListener('keydown', (e) => {
         if (e.key !== 'Enter') return
 
         e.preventDefault()
