@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "alias": "clap.studio",
-  "builds": [
-    { "src": "index.html", "use": "@now/static" },
-    { "src": "favicon.ico", "use": "@now/static" }
-  ]
-}
